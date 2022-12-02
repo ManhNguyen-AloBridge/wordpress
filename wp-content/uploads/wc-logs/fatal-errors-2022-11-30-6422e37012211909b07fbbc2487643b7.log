@@ -1,0 +1,802 @@
+2022-11-30T01:43:37+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 18
+
+2022-11-30T02:47:35+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:36
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 36
+
+2022-11-30T02:50:29+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 38
+
+2022-11-30T02:50:30+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 38
+
+2022-11-30T02:54:46+00:00 CRITICAL syntax error, unexpected identifier "var_dump" in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 40
+
+2022-11-30T02:56:40+00:00 CRITICAL Uncaught Error: Call to undefined function wc_product() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 33
+
+2022-11-30T03:06:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product as array in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:44
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 44
+
+2022-11-30T03:09:43+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:09:55+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:10:20+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:10:23+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:10:35+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:13:49+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:13:52+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:13:53+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:14:01+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:14:11+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41
+
+2022-11-30T03:14:32+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:69
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(46): add_price_widget()
+#1 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#10 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 69
+
+2022-11-30T03:20:06+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:69
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(46): add_price_widget()
+#1 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#10 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 69
+
+2022-11-30T03:25:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_products(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 29 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-product-functions.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(29): wc_get_products()
+#1 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(18): get_list_product()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#10 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 31
+
+2022-11-30T03:30:04+00:00 CRITICAL syntax error, unexpected token "[" in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 32
+
+2022-11-30T03:32:50+00:00 CRITICAL Cannot redeclare get_product() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:234) in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 60
+
+2022-11-30T03:32:59+00:00 CRITICAL Cannot redeclare get_product() (previously declared in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:234) in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 60
+
+2022-11-30T03:33:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_product_by_id(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 41 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:60
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(41): get_product_by_id()
+#1 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(19): get_list_product()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#10 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 60
+
+2022-11-30T03:33:50+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(19): get_list_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 33
+
+2022-11-30T03:41:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 18
+
+2022-11-30T03:41:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 18
+
+2022-11-30T03:41:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 18
+
+2022-11-30T03:42:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:42:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:42:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:42:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:42:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:42:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:43:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:43:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:43:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:43:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T03:43:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_active_subscribers_ids() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 17
+
+2022-11-30T04:18:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function payment_js_shortcode(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(16): payment_js_shortcode()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(106): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 50
+
+2022-11-30T04:18:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function payment_js_shortcode(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(16): payment_js_shortcode()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(106): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 50
+
+2022-11-30T04:18:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function payment_js_shortcode(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:50
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(16): payment_js_shortcode()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(106): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 50
+
+2022-11-30T06:30:04+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:70
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php(24): payment_js_shortcode('http://localhos...')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#6 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#9 /opt/lampp/htdocs/wordpress/wp-config.php(106): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 70
+
+2022-11-30T08:08:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_function" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_func...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:11:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_function" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_func...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:11:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_function" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_func...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:14:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_function" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_my_func...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:55:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:56:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:56:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T08:56:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T09:01:00+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T09:01:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T09:11:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T09:25:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T09:25:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2022-11-30T09:25:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_ajax_payment_method" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(192): do_action('wp_ajax_payment...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 308
+

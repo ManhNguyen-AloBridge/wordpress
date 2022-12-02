@@ -1,0 +1,6 @@
+{
+    "require": {
+        "stripe/stripe-php": "^1.8",
+        "automattic/woocommerce": "^3.1"
+    }
+}

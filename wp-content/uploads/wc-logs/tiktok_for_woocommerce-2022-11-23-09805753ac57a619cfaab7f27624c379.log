@@ -1,0 +1,82 @@
+2022-11-23T02:14:15+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_637d81f725c81httplocalhostwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+
+2022-11-23T02:14:20+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+
+2022-11-23T02:14:20+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 502 Bad Gateway
+Server: nginx
+Content-Type: text/plain; charset=utf-8
+Content-Length: 221
+X-Tt-Logid: 202211230214200102450372300405DD21
+x-tt-trace-host: 013539f823b3e3189a76299990be3ec98c347617df9b9f22919058fe1130136b40d3d9cd3031404430e1e65b838574a8c63523bfab787287796ba7e855204774196658ccd03cffdde401e5f4835e53bf113faf758174c99f34da8b93aedd90ad0d
+X-Origin-Response-Time: 43,23.75.21.9
+X-Akamai-Request-ID: d9e5483.314085a0
+Date: Wed, 23 Nov 2022 02:14:20 GMT
+X-Cache: TCP_MISS from a113-171-231-106.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-75-21-9.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=52, origin; dur=43
+Server-Timing: inner; dur=5
+X-Parent-Response-Time: 93,113.171.231.106
+
+Bad Gateway | KRAKEND.BACKEND/3 - request failed/320202:the server closed connection before returning the first response byte. Make sure the server returns 'Connection: close' response header before closing the connection
+
+2022-11-23T02:14:22+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202211230214200102450190540605EDB6,202211230214200102450190540605EDB6
+x-tt-trace-host: 013539f823b3e3189a76299990be3ec98c347617df9b9f22919058fe1130136b40d88bb2fa87ab7c7f36791a6c466024285dc28f3f069c922dffb4c4e3df71f5703d9d935324d13137c38ebc9689fc6d4dcf9a458428453813789dc4d330c2d595
+Content-Encoding: gzip
+Content-Length: 206
+X-Origin-Response-Time: 1867,23.75.21.28
+X-Akamai-Request-ID: 2b568c37.31408694
+Date: Wed, 23 Nov 2022 02:14:22 GMT
+X-Cache: TCP_MISS from a113-171-231-106.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-75-21-28.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=41, origin; dur=1867
+Server-Timing: inner; dur=1829
+X-Parent-Response-Time: 1904,113.171.231.106
+
+{"code":0,"msg":"ok","data":{"app_secret":"becebd9b857c420f5b6aedd7bb6aa9b40cf2e157","redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/","external_data_key":"c1575d8b-e34d-4e4e-b134-336ed3bc98df","app_id":"7169029080950505474"}}
+
+2022-11-23T02:16:35+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-23T02:16:35+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-23T02:16:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-23T02:17:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-23T02:23:23+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-23T02:23:23+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-23T02:23:28+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T02:23:28+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T02:40:47+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T02:40:47+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T02:40:59+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T02:40:59+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T03:52:20+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-23T03:52:20+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-23T03:52:24+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T03:52:24+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T03:52:40+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T03:52:40+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T03:52:44+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T03:52:44+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T03:53:09+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T03:53:09+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T04:28:08+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-23T04:28:08+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-23T04:28:15+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T04:28:15+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-23T04:33:25+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-23T04:33:25+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-23T04:33:30+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-23T04:33:30+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"

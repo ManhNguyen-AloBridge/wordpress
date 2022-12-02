@@ -1,0 +1,676 @@
+2022-11-29T07:13:45+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T07:14:09+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T07:14:10+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T07:14:52+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:19:50+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/stripe-php/init.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T07:20:17+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/stripe-php/init.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T07:21:10+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/stripe-php/init.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T07:21:18+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/stripe-php/init.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T07:23:00+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpresswp-content/plugins/stripe/lib/Stripe/init.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T07:37:58+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:37:59+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:03+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(10): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:10+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(10): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:13+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(10): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:14+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(10): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:14+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(10): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:16+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:28+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:29+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:29+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:38:34+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:39:52+00:00 CRITICAL Uncaught Error: Failed opening required 'wp-config.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/post.php(12): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T07:52:50+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T07:52:52+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(10): require_once('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T07:52:59+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-login.php(12): require('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T07:53:02+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:44:19+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:46:19+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:48:19+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:50:19+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:53:42+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:54:42+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:56:42+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:57:49+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:58:49+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T08:59:50+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T09:01:51+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T09:03:52+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T09:05:53+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T09:07:54+00:00 CRITICAL Uncaught Error: Call to undefined function Stripe() in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T09:23:18+00:00 CRITICAL Uncaught Error: Class "Stripe\StripeClient" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T09:28:24+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T10:06:04+00:00 CRITICAL Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T10:06:28+00:00 CRITICAL Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T10:10:44+00:00 CRITICAL Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
+2022-11-29T10:10:59+00:00 CRITICAL Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T10:11:00+00:00 CRITICAL Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): init_your_gateway_class('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#5 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-settings.php(617): do_action('init')
+#8 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 16
+
+2022-11-29T10:11:41+00:00 CRITICAL Uncaught Error: Failed opening required '../../../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T10:13:04+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T10:13:10+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T10:14:22+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T10:15:12+00:00 CRITICAL Uncaught Error: Failed opening required 'http://localhost/wordpress/vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 3
+
+2022-11-29T10:17:44+00:00 CRITICAL Uncaught Error: Failed opening required './stripe-php/init.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php:2
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-settings.php(585): include()
+#1 /opt/lampp/htdocs/wordpress/wp-config.php(101): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/storefront-child/functions.php on line 2
+
