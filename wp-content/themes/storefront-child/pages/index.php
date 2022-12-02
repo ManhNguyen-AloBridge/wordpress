@@ -19,6 +19,8 @@ $productPrice = get_product_price(13);
 
 $url = get_template_child_directory();
 
+// var_dump($woocommerce->get(''));
+
 ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
@@ -29,24 +31,26 @@ $url = get_template_child_directory();
 
 		<form method="POST">
 			<input id="btn-submit" type="submit" name="submit-value" value="submit">
-			<!-- <button id="btn-submit">Submit</button> -->
 		</form>
 
-		<form action="<?=$url?>/create-checkout-session.php" method="POST">
+		<form action="<?= $url ?>/create-checkout-session.php" method="POST">
 			<button type="submit">Checkout</button>
 		</form>
 
 		<form method="POST">
 			<input id="payment" type="submit" name="" value="Payment">
-			<!-- <button id="btn-submit">Submit</button> -->
 		</form>
-	</main><!-- #main -->
-</div><!-- #primary -->
+	</main>
+</div>
+
+<div id="payment-request-button">
+  <!-- A Stripe Element will be inserted here. -->
+</div>
 
 
 
-
-
+<script src="<?= get_template_child_directory()?>/asset/pages/index.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
 <?php
 echo do_shortcode('[jsshortcode]');
 

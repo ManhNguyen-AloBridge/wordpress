@@ -86,6 +86,16 @@ add_shortcode('js_shortcode', 'payment_js_shortcode');
 
 
 // *****************************
+\Stripe\Stripe::setApiKey(SECRET_KEY);
+
+$applePayDomain = \Stripe\ApplePayDomain::create([
+  'domain_name' => 'example.com',
+]);
+
+var_dump($applePayDomain);
+
+
+
 
 
 
@@ -159,7 +169,6 @@ use Automattic\WooCommerce\HttpClient\HttpClientException;
 // Create order
 function create_order(){
 
-
     $woocommerce = new Client(
         'https://example.com',
         'consumer_key',
@@ -171,50 +180,9 @@ function create_order(){
         ]
     );
 
-    $data = [
-        'payment_method' => 'bacs',
-        'payment_method_title' => 'Direct Bank Transfer',
-        'set_paid' => true,
-        'billing' => [
-            'first_name' => 'John',
-            'last_name' => 'Doe',
-            'address_1' => '969 Market',
-            'address_2' => '',
-            'city' => 'San Francisco',
-            'state' => 'CA',
-            'postcode' => '94103',
-            'country' => 'US',
-            'email' => 'john.doe@example.com',
-            'phone' => '(555) 555-5555'
-        ],
-        'shipping' => [
-            'first_name' => 'John',
-            'last_name' => 'Doe',
-            'address_1' => '969 Market',
-            'address_2' => '',
-            'city' => 'San Francisco',
-            'state' => 'CA',
-            'postcode' => '94103',
-            'country' => 'US'
-        ],
-        'line_items' => [
-            [
-                'product_id' => 13,
-                'quantity' => 2
-            ]
-        ],
-        'shipping_lines' => [
-            [
-                'method_id' => 'flat_rate',
-                'method_title' => 'Flat Rate',
-                'total' => '10.00'
-            ]
-        ]
-    ];
-    
-    var_dump($woocommerce->post('orders', $data));
-}
+    var_dump($woocommerce);
 
+}
 
 
 // Call payment method
@@ -255,6 +223,9 @@ add_action('wp_enqueue_scripts', function () {
     wp_localize_script('jquery', 'config_secret_key', SECRET_KEY);
 });
 
+add_action('wp_enqueue_scripts', function () {
+    wp_localize_script('jquery', 'config_public_key', PUBLISHABLE_KEY);
+});
 // ====================================================
 
 
