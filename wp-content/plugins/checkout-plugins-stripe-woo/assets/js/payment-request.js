@@ -510,6 +510,7 @@
 	}
 
 	function cpswAdjustButtonOnCheckoutPage() {
+		console.log(123);
 		if ( isCheckoutPage && $( '.place-order #place_order' ).length > 0 ) {
 			const wcCheckoutButton = $( '.place-order #place_order' );
 			const cpswExpressCheckoutButtonWrap = $( '.cpsw-payment-request-custom-button-render' );

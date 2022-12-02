@@ -43,6 +43,7 @@ define('PUBLISHABLE_KEY','pk_test_51KcMRVGar99af23DWnLWTAe9ykOu3QKCP6UE2cncqVDLn
 // Stripe private key
 define('SECRET_KEY','sk_test_51KcMRVGar99af23DyDHoDGnvgA8UB0ermXbylJvv6c4PvaN3w4gSsT6PccJvVEiIODdbVBae5xNPrIjlmiDsPRvV009zjTmNtd');
 
+define('STRIPE_GETWAY', 'stripe');
 
 
 

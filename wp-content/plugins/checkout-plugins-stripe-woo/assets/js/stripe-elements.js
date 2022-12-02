@@ -700,6 +700,7 @@
 	}
 
 	const processingSubmit = function( e ) {
+		console.log(5555);
 		if ( ( 'yes' === cpsw_global_settings.is_cart_amount_zero || $( 'form#order_review' ).length || $( 'form#add_payment_method' ).length ) && 'cpsw_sepa' === selectedGateway() && ! isSepaSaveCardChosen() && '' === paymentMethodSepa ) {
 			e.preventDefault();
 			createStripePaymentMethod();
@@ -725,8 +726,9 @@
 		paymentForm = $( 'form.woocommerce-checkout' );
 	}
 
-	$( 'form.woocommerce-checkout' ).on( 'submit checkout_place_order_cpsw_ideal', function() {
+	$( 'form.woocommerce-checkout' ).on( 'submit checkout_place_order_cpsw_ideal', function(e) {
 		// check for iDEAL.
+		console.log(1111);
 		if ( 'cpsw_ideal' === selectedGateway() ) {
 			if ( '' === selectedIdealBank ) {
 				$( '.cpsw_stripe_ideal_error' ).html( cpsw_global_settings.empty_bank_message );
@@ -741,6 +743,8 @@
 	} );
 
 	$( 'form.woocommerce-checkout' ).on( 'submit checkout_place_order_cpsw_sepa', function() {
+		
+		console.log(222);
 		if ( isSepaSaveCardChosen() ) {
 			$( '.cpsw_stripe_sepa_error' ).html( '' );
 			return true;
@@ -759,6 +763,7 @@
 
 	$( 'form.woocommerce-checkout' ).on( 'submit checkout_place_order_cpsw_p24', function() {
 		// check for P24.
+		console.log(333);
 		if ( 'cpsw_p24' === selectedGateway() ) {
 			if ( '' === selectedP24Bank ) {
 				$( '.cpsw_stripe_p24_error' ).html( cpsw_global_settings.empty_bank_message );

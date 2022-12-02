@@ -19,3 +19,4830 @@ account
 ====End Log====
 
 
+2022-12-02T09:02:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV8iGar99af23DiNQP0BSr
+====End Log====
+
+
+2022-12-02T09:02:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:02:39+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:02:39+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV8iGar99af23DiNQP0BSr
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:02:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV8iGar99af23DiNQP0BSr
+====End Log====
+
+
+2022-12-02T09:02:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:02:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:02:42+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV8iGar99af23DiNQP0BSr
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:02:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV8iGar99af23DiNQP0BSr
+====End Log====
+
+
+2022-12-02T09:02:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:02:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV8iGar99af23DiNQP0BSr
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:02:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV8iGar99af23DiNQP0BSr
+====End Log====
+
+
+2022-12-02T09:02:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:02:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV8iGar99af23DiNQP0BSr
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:02:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV8iGar99af23DiNQP0BSr
+====End Log====
+
+
+2022-12-02T09:02:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:02:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV8iGar99af23DiNQP0BSr
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:02:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV8iGar99af23DiNQP0BSr
+====End Log====
+
+
+2022-12-02T09:02:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:02:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV8iGar99af23DiNQP0BSr
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:02:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_02rbCFY9nviTdI?t=1669971775
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:03:07+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:03:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV9MGar99af23DLvu5m6ez
+====End Log====
+
+
+2022-12-02T09:03:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:03:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:03:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV9MGar99af23DLvu5m6ez
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:03:20+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV9MGar99af23DLvu5m6ez
+====End Log====
+
+
+2022-12-02T09:03:20+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:03:21+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:03:21+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV9MGar99af23DLvu5m6ez
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:03:23+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV9MGar99af23DLvu5m6ez
+====End Log====
+
+
+2022-12-02T09:03:24+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:03:24+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV9MGar99af23DLvu5m6ez
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:03:27+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV9MGar99af23DLvu5m6ez
+====End Log====
+
+
+2022-12-02T09:03:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:03:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV9MGar99af23DLvu5m6ez
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:03:32+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV9MGar99af23DLvu5m6ez
+====End Log====
+
+
+2022-12-02T09:03:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:03:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV9MGar99af23DLvu5m6ez
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:03:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAV9MGar99af23DLvu5m6ez
+====End Log====
+
+
+2022-12-02T09:03:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:03:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAV9MGar99af23DLvu5m6ez
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:03:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_ilIM91XNXhk98d?t=1669971814
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:05:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:05:19+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVBKGar99af23DHBgsBVSs
+====End Log====
+
+
+2022-12-02T09:05:19+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:05:20+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:05:20+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVBKGar99af23DHBgsBVSs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:05:21+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVBKGar99af23DHBgsBVSs
+====End Log====
+
+
+2022-12-02T09:05:22+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:05:22+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:05:22+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVBKGar99af23DHBgsBVSs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:05:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVBKGar99af23DHBgsBVSs
+====End Log====
+
+
+2022-12-02T09:05:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:05:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVBKGar99af23DHBgsBVSs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:05:29+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVBKGar99af23DHBgsBVSs
+====End Log====
+
+
+2022-12-02T09:05:29+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:05:29+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVBKGar99af23DHBgsBVSs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:05:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVBKGar99af23DHBgsBVSs
+====End Log====
+
+
+2022-12-02T09:05:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:05:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVBKGar99af23DHBgsBVSs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:05:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVBKGar99af23DHBgsBVSs
+====End Log====
+
+
+2022-12-02T09:05:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:05:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVBKGar99af23DHBgsBVSs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:05:36+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_ZVg6hl3hNpBwpQ?t=1669971936
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:06:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:06:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVCqGar99af23DGd11OUS0
+====End Log====
+
+
+2022-12-02T09:06:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:06:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:06:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVCqGar99af23DGd11OUS0
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:06:56+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVCqGar99af23DGd11OUS0
+====End Log====
+
+
+2022-12-02T09:06:56+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:06:57+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:06:57+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVCqGar99af23DGd11OUS0
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:06:59+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVCqGar99af23DGd11OUS0
+====End Log====
+
+
+2022-12-02T09:07:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:07:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVCqGar99af23DGd11OUS0
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:07:03+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVCqGar99af23DGd11OUS0
+====End Log====
+
+
+2022-12-02T09:07:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:07:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVCqGar99af23DGd11OUS0
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:07:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVCqGar99af23DGd11OUS0
+====End Log====
+
+
+2022-12-02T09:07:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:07:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVCqGar99af23DGd11OUS0
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:07:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVCqGar99af23DGd11OUS0
+====End Log====
+
+
+2022-12-02T09:07:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:07:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVCqGar99af23DGd11OUS0
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:07:10+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_12sdSCzYOwFvFE?t=1669972030
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:08:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:09:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVEvGar99af23DMk7KHlPe
+====End Log====
+
+
+2022-12-02T09:09:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:09:03+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:03+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVEvGar99af23DMk7KHlPe
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVEvGar99af23DMk7KHlPe
+====End Log====
+
+
+2022-12-02T09:09:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:09:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVEvGar99af23DMk7KHlPe
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVEvGar99af23DMk7KHlPe
+====End Log====
+
+
+2022-12-02T09:09:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVEvGar99af23DMk7KHlPe
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:12+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVEvGar99af23DMk7KHlPe
+====End Log====
+
+
+2022-12-02T09:09:12+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:12+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVEvGar99af23DMk7KHlPe
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVEvGar99af23DMk7KHlPe
+====End Log====
+
+
+2022-12-02T09:09:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVEvGar99af23DMk7KHlPe
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVEvGar99af23DMk7KHlPe
+====End Log====
+
+
+2022-12-02T09:09:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVEvGar99af23DMk7KHlPe
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:19+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_JVLoIDGB3Paovt?t=1669972158
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:09:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:09:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVFUGar99af23DVnJG8REU
+====End Log====
+
+
+2022-12-02T09:09:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:09:39+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:39+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVFUGar99af23DVnJG8REU
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVFUGar99af23DVnJG8REU
+====End Log====
+
+
+2022-12-02T09:09:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:09:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVFUGar99af23DVnJG8REU
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVFUGar99af23DVnJG8REU
+====End Log====
+
+
+2022-12-02T09:09:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVFUGar99af23DVnJG8REU
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVFUGar99af23DVnJG8REU
+====End Log====
+
+
+2022-12-02T09:09:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVFUGar99af23DVnJG8REU
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:52+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVFUGar99af23DVnJG8REU
+====End Log====
+
+
+2022-12-02T09:09:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVFUGar99af23DVnJG8REU
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVFUGar99af23DVnJG8REU
+====End Log====
+
+
+2022-12-02T09:09:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:09:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVFUGar99af23DVnJG8REU
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:09:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_diVVy8jD3Faujo?t=1669972194
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:10:16+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:11:34+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHNGar99af23DuERqMqPs
+====End Log====
+
+
+2022-12-02T09:11:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:11:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:11:35+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHNGar99af23DuERqMqPs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:11:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHNGar99af23DuERqMqPs
+====End Log====
+
+
+2022-12-02T09:11:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:11:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:11:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHNGar99af23DuERqMqPs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:11:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHNGar99af23DuERqMqPs
+====End Log====
+
+
+2022-12-02T09:11:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:11:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHNGar99af23DuERqMqPs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:11:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHNGar99af23DuERqMqPs
+====End Log====
+
+
+2022-12-02T09:11:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:11:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHNGar99af23DuERqMqPs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:11:49+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHNGar99af23DuERqMqPs
+====End Log====
+
+
+2022-12-02T09:11:49+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:11:49+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHNGar99af23DuERqMqPs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:11:50+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHNGar99af23DuERqMqPs
+====End Log====
+
+
+2022-12-02T09:11:50+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:11:50+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHNGar99af23DuERqMqPs
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:11:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_XmMO7D8s8KzQk0?t=1669972310
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:11:59+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:12:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+)
+
+====End Log====
+
+
+2022-12-02T09:12:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:12:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:03+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:12:03+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+)
+
+====End Log====
+
+
+2022-12-02T09:12:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk request: Array
+(
+)
+
+====End Log====
+
+
+2022-12-02T09:12:04+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:12:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:07+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:12:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:08+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:11+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:12:12+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:12+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:16+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:12:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:12:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_Mueu8MqKOgH7te?t=1669972338
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:12:36+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb
+====End Log====
+
+
+2022-12-02T09:12:36+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+)
+
+====End Log====
+
+
+2022-12-02T09:12:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:12:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:38+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:39+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb
+====End Log====
+
+
+2022-12-02T09:12:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+)
+
+====End Log====
+
+
+2022-12-02T09:12:40+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb request: Array
+(
+)
+
+====End Log====
+
+
+2022-12-02T09:12:41+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:12:42+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:42+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb
+====End Log====
+
+
+2022-12-02T09:12:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb
+====End Log====
+
+
+2022-12-02T09:12:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb
+====End Log====
+
+
+2022-12-02T09:12:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:53+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVIMGar99af23Dp9X2QfQb
+====End Log====
+
+
+2022-12-02T09:12:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:12:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVIMGar99af23Dp9X2QfQb
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [setup_future_usage] => off_session
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:12:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_P1MxNBts31JX8n?t=1669972375
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:12:59+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:13:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [default_source] => src_1MAVHmGar99af23DhnPaMymk
+)
+
+====End Log====
+
+
+2022-12-02T09:13:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:13:27+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:13:27+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:13:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:13:28+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:13:29+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:13:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:13:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:13:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:13:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:13:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:13:33+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:13:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:13:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:13:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:13:42+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:13:42+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:13:42+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:13:43+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:13:43+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:13:43+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:13:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_i5AS2OYtoNSH1l?t=1669972424
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:14:54+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:16:44+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVMNGar99af23DOvjmYRKQ
+====End Log====
+
+
+2022-12-02T09:16:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:16:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:16:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVMNGar99af23DOvjmYRKQ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:16:47+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVMNGar99af23DOvjmYRKQ
+====End Log====
+
+
+2022-12-02T09:16:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:16:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:16:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVMNGar99af23DOvjmYRKQ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:16:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVMNGar99af23DOvjmYRKQ
+====End Log====
+
+
+2022-12-02T09:16:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:16:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVMNGar99af23DOvjmYRKQ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:16:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVMNGar99af23DOvjmYRKQ
+====End Log====
+
+
+2022-12-02T09:16:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:16:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVMNGar99af23DOvjmYRKQ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:17:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVMNGar99af23DOvjmYRKQ
+====End Log====
+
+
+2022-12-02T09:17:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:17:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVMNGar99af23DOvjmYRKQ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:17:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVMNGar99af23DOvjmYRKQ
+====End Log====
+
+
+2022-12-02T09:17:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:17:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVMNGar99af23DOvjmYRKQ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:17:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_LwgOpNg6rJBtvc?t=1669972622
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:17:29+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:18:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:18:45+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:18:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:18:46+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:18:47+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:18:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:18:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:18:48+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:18:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:18:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:18:51+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:18:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:18:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:18:55+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:19:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:19:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:19:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:19:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:19:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:19:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:19:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_oHNqTPM0fdGhMk?t=1669972742
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:19:29+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:21:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVQjGar99af23DaGGBiHlJ
+====End Log====
+
+
+2022-12-02T09:21:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:21:16+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:21:16+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVQjGar99af23DaGGBiHlJ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:21:17+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVQjGar99af23DaGGBiHlJ
+====End Log====
+
+
+2022-12-02T09:21:18+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:21:19+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:21:19+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVQjGar99af23DaGGBiHlJ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:21:21+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVQjGar99af23DaGGBiHlJ
+====End Log====
+
+
+2022-12-02T09:21:22+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:21:22+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVQjGar99af23DaGGBiHlJ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:21:25+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVQjGar99af23DaGGBiHlJ
+====End Log====
+
+
+2022-12-02T09:21:26+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:21:26+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVQjGar99af23DaGGBiHlJ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:21:30+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVQjGar99af23DaGGBiHlJ
+====End Log====
+
+
+2022-12-02T09:21:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:21:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVQjGar99af23DaGGBiHlJ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:21:31+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVQjGar99af23DaGGBiHlJ
+====End Log====
+
+
+2022-12-02T09:21:32+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 24 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:21:32+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVQjGar99af23DaGGBiHlJ
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 24
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 24
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:21:32+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_whCPiEc1S5J227?t=1669972892
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:22:21+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:23:58+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:23:59+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:24:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 25 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:24:00+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 25
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 25
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:24:01+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI request: Array
+(
+    [email] => manh.nguyen@alobridge.com
+    [description] => Name: Tran Binh, Username: admin
+    [name] => Tran Binh
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:24:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:24:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 25 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:24:02+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 25
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 25
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:24:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:24:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 25 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:24:05+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 25
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 25
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:24:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:24:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 25 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:24:09+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 25
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 25
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:24:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:24:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 25 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:24:14+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 25
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 25
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:24:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+sources/src_1MAVHmGar99af23DhnPaMymk
+====End Log====
+
+
+2022-12-02T09:24:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Info: Begin processing payment for order 25 for the amount of 10
+====End Log====
+
+
+2022-12-02T09:24:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1MAVHmGar99af23DhnPaMymk
+    [amount] => 10
+    [currency] => vnd
+    [description] => Demo - Order 25
+    [metadata] => Array
+        (
+            [customer_name] => Tran Binh
+            [customer_email] => asd@gmail.com
+            [order_id] => 25
+            [site_url] => http://localhost/wordpress
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_MuJmppUQODuPmI
+    [statement_descriptor] => Mirror Twin Content
+)
+
+====End Log====
+
+
+2022-12-02T09:24:15+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 JPY. ₫10 converts to approximately ¥0.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_tMzG9iap2LnPbF?t=1669973055
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2022-12-02T09:28:37+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+customers/cus_MuJmppUQODuPmI/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2022-12-02T09:29:19+00:00 DEBUG 
+====Stripe Version: 7.0.1====
+====Start Log====
+account
+====End Log====
+
+

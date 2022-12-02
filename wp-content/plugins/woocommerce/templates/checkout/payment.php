@@ -36,7 +36,6 @@ if ( ! wp_doing_ajax() ) {
 		</ul>
 	<?php endif; ?>
 	<div class="form-row place-order">
-		<h1>222</h1>
 		<noscript>
 			<?php
 			/* translators: $1 and $2 opening and closing emphasis tags respectively */

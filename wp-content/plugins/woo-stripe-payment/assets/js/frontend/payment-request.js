@@ -172,6 +172,7 @@
 
     // Checkout page functionality
     if ($(document.body).is('.woocommerce-checkout')) {
+        console.log(123);
         /**
          * [PaymentRequest description]
          */
